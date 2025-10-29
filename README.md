@@ -21,7 +21,9 @@ We discourage attempting more than one bucket, especially for first year student
 
 You can find further instructions for each bucket in the respective branch (listed above) of this repository. You may clone the appropriate branch, and start working from there, using this syntax:
 
-`git clone --branch <branch-name> --single-branch https://github.com/DaSH-Lab-CSIS/DaSH-Lab-Induction-Assignment-2025.git`
+```
+git clone --branch <branch-name> --single-branch https://github.com/DaSH-Lab-CSIS/DaSH-Lab-Induction-Assignment-2025.git
+```
 
 ## LLM Usage Policy
 You are free to use your favourite LLMs as coding / research assistants.
