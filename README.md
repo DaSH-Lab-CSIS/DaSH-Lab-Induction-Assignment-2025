@@ -44,6 +44,9 @@ You can find further instructions for each bucket in the respective branch (list
     - GitHub Username: `dash-recruiter`
     - Profile Link: `https://github.com/dash-recruiter`
 
+## Support
+Please join our [Slack workspace](zt-3hj00s42o-8tbKFpKVO7mP7tEIkyLK~w) to keep up with announcements related to the induction process, and also to ask questions / ask for help if you're stuck.
+
 ## LLM Usage Policy
 You are free to use your favourite LLMs as coding / research assistants.
 
