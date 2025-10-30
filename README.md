@@ -19,11 +19,30 @@ You are required to pick <u>**ONLY ONE**</u> of these.
 
 We discourage attempting more than one bucket, especially for first year students. Completing a single bucket thoroughly should occupy most of your time. Reiterating: we value depth over breadth; we would rather have you dive deep into the open-ended section of one bucket rather than spend time on more than one of them. Owing to the open-ended nature of research, your work on the open-ended portions will be the best indicator of your understanding and skills.
 
-You can find further instructions for each bucket in the respective branch (listed above) of this repository. You may clone the appropriate branch, and start working from there, using this syntax:
+You can find further instructions for each bucket in the respective branch (listed above) of this repository. You may clone the appropriate branch, and start working from there.
 
-```
-git clone --branch <branch-name> --single-branch https://github.com/DaSH-Lab-CSIS/DaSH-Lab-Induction-Assignment-2025.git
-```
+### Repository Setup Instructions
+- First, clone the chosen branch of our public repository:
+    ```
+    git clone --branch <branch-name> --single-branch https://github.com/DaSH-Lab-CSIS/DaSH-Lab-Induction-Assignment-2025.git
+    ```
+- Remove the public repository as the remote:
+    ```
+    cd DaSH-Lab-Induction-Assignment-2025
+    git remote remove origin
+    ```
+- Create a new <u>**PRIVATE**</u> repository linked to your own GitHub account.
+- Add this new repository as the remote:
+    ```
+    git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+    ```
+- Push your modified files to this repository:
+    ```
+    git push -u origin <branch-name>
+    ```
+- When you're ready to submit, add the following account as a collaborator with the 'write' role (<u>**DO NOT FORGET THIS STEP**</u>):
+    - GitHub Username: `dash-recruiter`
+    - Profile Link: `https://github.com/dash-recruiter`
 
 ## LLM Usage Policy
 You are free to use your favourite LLMs as coding / research assistants.
@@ -32,14 +51,11 @@ We do <u>**NOT**</u> look unfavourably upon LLM generated code, as long as you u
 
 We <u>**STRONGLY DISCOURAGE**</u> pasting the entire problem statement into an LLM and submitting the output without any modifications. The assignment is meant to test your understanding and ability to tackle novel problems. As such, you should be able to *explain* in your interview the content you have studied and the solution you have implemented.
 
-## Submission
-For submitting your work, create a private repository, and add all your files there. Add <> as a collaborator (<u>**DO NOT FORGET THIS STEP**</u>) before submission.
-
-### Deadlines
-- First:
+## Submission Deadlines
+- First Deadline:
     - Friday, 7th November 2025, 11:59 PM
     - [GForm for First Deadline](https://forms.gle/2NXegrTQy6DxXWrH6)
-- Second:
+- Second Deadline:
     - Tuesday, 11th November 2025, 11:59 PM
     - [GForm for Second Deadline](https://forms.gle/cEMRr7m82zNtR1Gu9)
 
