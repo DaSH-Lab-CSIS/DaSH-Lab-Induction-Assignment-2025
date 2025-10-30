@@ -390,12 +390,6 @@ DaSH-Lab-Induction-Assignment-2025/
 
 ### Systems Research
 - [How to Read a Paper (Keshav)](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
-- [How to Read a Systems Paper](https://www.microsoft.com/en-us/research/uploads/prod/2018/09/How_to_read_a_systems_paper.pdf)
-
-### Writing and Analysis
-- [Writing Reviews for Systems Conferences](https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)
-- [The Systems Research Lifecycle](https://www.usenix.org/publications/loginonline/systems-research-lifecycle)
-
 ---
 
 ## Evaluation Criteria
@@ -441,6 +435,7 @@ DaSH-Lab-Induction-Assignment-2025/
 - ✅ Thoughtful discussion of limitations and future work
 - ✅ Well-structured writing with proper citations
 
+**This will be followed by rigrous interview to select candidates**
 ---
 
 ### Common Questions
