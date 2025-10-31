@@ -366,6 +366,7 @@ DaSH-Lab-Induction-Assignment-2025/
 
 ### Systems Research
 - [How to Read a Paper (Keshav)](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
+- [Gernot's List of Systems Benchmarking Crimes (Advanced)](https://gernot-heiser.org/benchmarking-crimes.html)
 ---
 
 ## Evaluation Criteria
