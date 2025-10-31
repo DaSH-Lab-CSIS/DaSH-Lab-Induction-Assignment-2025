@@ -30,13 +30,11 @@ This assignment will challenge you to:
 
 **This assignment consists of TWO mandatory parts:**
 
-### Part 1: GPU Matrix Multiplication (40%)
+### Part 1: GPU Matrix Multiplication (50%)
 Implement and optimize matrix multiplication on GPU, comparing your performance against cuBLAS.
 
-### Part 2: Research Paper Analysis (60%)
+### Part 2: Research Paper Analysis (50%)
 Read, understand, and critically analyze a systems research paper from our curated list.
-
-**Estimated Time**: 15-20 hours total
 
 ---
 
@@ -212,35 +210,14 @@ Choose **ONE** paper from the following list:
 - **Why Read**: Demonstrates how OS principles apply to modern ML systems; highly relevant to current AI infrastructure
 - **Topics**: Memory management, virtual memory, LLM serving, GPU memory optimization
 
-#### 3. **Exokernel: Application-Level Resource Management**
-- **Conference**: SOSP 1995
-- **Link**: https://pdos.csail.mit.edu/6.828/2008/readings/engler95exokernel.pdf
-- **Focus**: Traditional OS abstractions limit performance; proposes minimal kernel that securely exports hardware resources
-- **Why Read**: Classic paper that challenges conventional OS design; influences modern container/unikernel systems
-- **Topics**: OS architecture, kernel design, abstraction vs. performance, resource management
-
-#### 4. **Using Dynamically Layered Definite Releases for Verifying the RefFS File System**
-- **Conference**: OSDI 2024
-- **Link**: https://www.usenix.org/conference/osdi24/presentation/zou
-- **Focus**: Applies formal verification techniques to file system design
-- **Why Read**: Emerging area of verified systems; practical verification of complex storage systems
-- **Topics**: Formal verification, file systems, storage systems, correctness proofs
-
-#### 5. **SILT: A Memory-Efficient, High-Performance Key-Value Store**
+#### 3. **SILT: A Memory-Efficient, High-Performance Key-Value Store**
 - **Conference**: SOSP 2011
 - **Link**: https://dl.acm.org/doi/10.1145/2043556.2043558
 - **Focus**: Memory-efficient key-value store based on flash storage that scales to billions of items
 - **Why Read**: Foundational work on flash-based storage systems; principles still relevant today
 - **Topics**: Key-value stores, flash storage, memory efficiency, data structures
 
-#### 6. **Falcon: Fast OLTP Engine for Persistent Cache and Non-Volatile Memory**
-- **Conference**: SOSP 2023
-- **Link**: https://madsys.cs.tsinghua.edu.cn/publication/falcon-fast-oltp-engine-for-persistent-cache-and-non-volatile-memory/SOSP23-ji.pdf
-- **Focus**: Impact of persistent cache (eADR) on OLTP engines; small log window design and selective data flush
-- **Why Read**: Explores emerging NVM technologies and their impact on database design
-- **Topics**: Non-volatile memory, databases, OLTP, persistence, logging
-
-#### 7. **Optimizing Memory-mapped I/O for Fast Storage Devices**
+#### 4. **Optimizing Memory-mapped I/O for Fast Storage Devices**
 - **Conference**: USENIX ATC 2020
 - **Link**: https://www.usenix.org/system/files/atc20-papagiannis.pdf
 - **Focus**: Memory-mapped I/O optimization for low-latency storage devices
@@ -366,10 +343,10 @@ DaSH-Lab-Induction-Assignment-2025/
    - Do NOT submit code that doesn't compile—fix all errors before submission
    - **Keep your development history**: We want to see your progress through commits
 
-2. **Deadline**: [TO BE SPECIFIED]
+2. **Deadline**: See the main branch
 
 3. **Submission Format**:
-   - Email repository link to: [LAB EMAIL TO BE SPECIFIED]
+   - Email repository link to: see the main branch for submission guidelines
 
 ### Academic Integrity
 
@@ -394,24 +371,24 @@ DaSH-Lab-Induction-Assignment-2025/
 
 ## Evaluation Criteria
 
-### Part 1: GPU Matrix Multiplication (40 points)
+### Part 1: GPU Matrix Multiplication (50 points)
 
 | Criterion | Points | Description |
 |-----------|--------|-------------|
-| Correctness | 8 | All implementations produce correct results |
-| Implementation Quality | 8 | Clean code, proper memory management, good practices |
-| Optimization Breadth & Depth | 12 | Number and variety of optimization techniques explored; understanding of GPU memory access patterns |
-| Performance | 6 | Achieved performance relative to cuBLAS and improvement over baseline |
-| Report Quality | 6 | Clear explanation of each technique, insightful analysis, profiling data, documentation of failures |
+| Correctness | 10 | All implementations produce correct results |
+| Implementation Quality | 10 | Clean code, proper memory management, good practices |
+| Optimization Breadth & Depth | 14 | Number and variety of optimization techniques explored; understanding of GPU memory access patterns |
+| Performance | 8 | Achieved performance relative to cuBLAS and improvement over baseline |
+| Report Quality | 8 | Clear explanation of each technique, insightful analysis, profiling data, documentation of failures |
 
-### Part 2: Paper Analysis (60 points)
+### Part 2: Paper Analysis (50 points)
 
 | Criterion | Points | Description |
 |-----------|--------|-------------|
-| Technical Understanding | 18 | Demonstrates comprehension of paper's technical content |
-| Critical Analysis | 24 | Insightful critiques with technical reasoning |
-| Breadth | 9 | Considers broader context and future directions |
-| Clarity & Organization | 9 | Well-structured, clear writing, proper citations |
+| Technical Understanding | 16 | Demonstrates comprehension of paper's technical content |
+| Critical Analysis | 18 | Insightful critiques with technical reasoning |
+| Breadth | 8 | Considers broader context and future directions |
+| Clarity & Organization | 8 | Well-structured, clear writing, proper citations |
 
 ### Total: 100 points
 
@@ -435,7 +412,7 @@ DaSH-Lab-Induction-Assignment-2025/
 - ✅ Thoughtful discussion of limitations and future work
 - ✅ Well-structured writing with proper citations
 
-**This will be followed by rigrous interview to select candidates**
+#### **This will be followed by rigrous interview to select candidates**
 ---
 
 ### Common Questions
@@ -479,6 +456,6 @@ Good luck!
 
 ---
 
-**Last Updated**: October 30, 2025  
-**Version**: 1.0
+**Last Updated**: October 31, 2025  
+**Version**: 1.1
 
