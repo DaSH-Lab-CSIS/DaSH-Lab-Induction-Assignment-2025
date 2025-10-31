@@ -101,7 +101,6 @@ Your goal is to implement **as many optimization techniques as possible** to get
 For each implementation:
 - Measure execution time (average over multiple runs)
 - Calculate GFLOPS (Giga Floating Point Operations Per Second)
-  - Formula: `GFLOPS = (2 × N³) / (time_in_seconds × 10⁹)` for N×N matrices
 - Compare against cuBLAS performance
 - Report percentage of cuBLAS performance achieved
 
